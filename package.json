@@ -1,0 +1,17 @@
+{
+  "name": "native-tool-contract-review",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CLI tool to verify on-chain deployment wiring/config of NativeLPToken, WrappedNLP and WithdrawQueue",
+  "type": "module",
+  "scripts": {
+    "check": "tsx src/check.ts"
+  },
+  "dependencies": {
+    "viem": "^2.53.1"
+  },
+  "devDependencies": {
+    "tsx": "^4.22.4",
+    "typescript": "^5.9.2"
+  }
+}
